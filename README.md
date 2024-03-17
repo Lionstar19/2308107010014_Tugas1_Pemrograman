@@ -11,8 +11,11 @@ Program menggunakan struktur switch-case untuk memilih operasi yang sesuai berda
 Jika pengguna memilih:
 
 1 (Desimal ke Biner): Program meminta pengguna memasukkan bilangan desimal yang akan dikonversi. Kemudian, program melakukan konversi dengan membagi bilangan desimal tersebut secara berulang dengan 2 dan mencetak sisa hasil bagi sebagai bilangan biner. Proses ini terus berlanjut hingga bilangan desimal menjadi nol.
+
 2 (Biner ke Desimal): Program meminta pengguna memasukkan bilangan biner yang akan dikonversi. Kemudian, program melakukan konversi dengan menghitung nilai desimal dari bilangan biner tersebut menggunakan metode konversi biner ke desimal.
+
 3 (Desimal ke Octal): Program meminta pengguna memasukkan bilangan desimal yang akan dikonversi. Kemudian, program mencetak bilangan desimal dalam format oktal menggunakan specifier "%o" dari fungsi printf().
+
 4 (Octal ke Desimal): Program meminta pengguna memasukkan bilangan oktal yang akan dikonversi. Kemudian, program mencetak bilangan oktal dalam format desimal.
 Jika pengguna memilih pilihan selain 1, 2, 3, atau 4, program akan mencetak pesan bahwa pilihan Anda tidak tepat.
 
